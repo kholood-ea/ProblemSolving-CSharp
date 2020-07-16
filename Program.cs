@@ -6,8 +6,7 @@ namespace Problems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            System.Console.WriteLine("hi");
+            UniqueString.isUnique("Kholood");
         }
     }
 }
