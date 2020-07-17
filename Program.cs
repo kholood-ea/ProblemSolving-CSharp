@@ -6,7 +6,9 @@ namespace Problems
     {
         static void Main(string[] args)
         {
-            UniqueString.isUnique("Kholood");
+
+            // UniqueString.isUnique("Kholood");
+            PremutationString.isPremutation("abc", "123");
         }
     }
 }
