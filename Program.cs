@@ -8,7 +8,9 @@ namespace Problems
         {
 
             // UniqueString.isUnique("Kholood");
-            PremutationString.isPremutation("abc", "123");
+            // PremutationString.isPremutation("abc", "123");
+            System.Console.WriteLine(URLifyString.URLify("Hello World   +    ", 11));
+
         }
     }
 }
