@@ -9,7 +9,9 @@ namespace Problems
 
             // UniqueString.isUnique("Kholood");
             // PremutationString.isPremutation("abc", "123");
-            System.Console.WriteLine(URLifyString.URLify("Hello World   +    ", 11));
+            // Console.WriteLine(URLifyString.URLify("Hello World   +    ", 11));
+            // Console.WriteLine(PalindromMutation.IsPalindromMutattion("tot"));
+            Console.WriteLine(oneEdit.isOneEditAway("pale", "bale"));
 
         }
     }

@@ -4,7 +4,7 @@ namespace Problems
 {
     public class URLifyString
     {
-        // public static string URLify(string word, int length)//1st approch
+        // public static string URLify(string word, int length)//1st approach
 
         public static string URLify(string word, int length)
         {
