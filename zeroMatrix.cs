@@ -99,13 +99,9 @@ namespace Problems
             }
             for (int i = 0; i < matrix.Length; i++)
             {
-                for (int j = 0; j < matrix[0].Length; j++)
-                {
-                    // System.Console.WriteLine(string.Join(",", matrix[j]));
-                    // return string.Join(",", matrix[j]);
-                    return matrix;
 
-                }
+
+                System.Console.WriteLine(string.Join(",", matrix[i]));
             }
             return matrix;
             // return string.Join(",", matrix.ToString());

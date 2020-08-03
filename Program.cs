@@ -19,15 +19,9 @@ namespace Problems
               new int[] { 7, 8,9 },
                };
             // System.Console.WriteLine(matrixRotation.rotate(matrix));
-            matrix = zeroMatrix.zeroMatrixx(matrix);
-            for (int i = 0; i < matrix.Length; i++)
-            {
-                for (int j = 0; j < matrix[0].Length; j++)
-                {
-                    System.Console.WriteLine(string.Join(",", matrix[j]));
+            // zeroMatrix.zeroMatrixx(matrix);
+            System.Console.WriteLine(stringRotation.isSubstring("waterbottel", "erbottelwa"));
 
-                }
-            }
         }
     }
 }
