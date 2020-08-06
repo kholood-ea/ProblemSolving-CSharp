@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Problems
 {
@@ -13,15 +15,28 @@ namespace Problems
             // Console.WriteLine(PalindromMutation.IsPalindromMutattion("tot"));
             // Console.WriteLine(oneEdit.isOneEditAway("pale", "bale"));
             // letterOccurrance.letterOccur("aabcccccaaa");
-            int[][] matrix = new int[3][] {
-                new int[] { 0, 2,3 },
-             new int[] { 4, 5,6 },
-              new int[] { 7, 8,9 },
-               };
+            // int[][] matrix = new int[3][] {
+            //     new int[] { 0, 2,3 },
+            //  new int[] { 4, 5,6 },
+            //   new int[] { 7, 8,9 },
+            //    };
             // System.Console.WriteLine(matrixRotation.rotate(matrix));
             // zeroMatrix.zeroMatrixx(matrix);
-            System.Console.WriteLine(stringRotation.isSubstring("waterbottel", "erbottelwa"));
+            // System.Console.WriteLine(stringRotation.isSubstring("waterbottel", "erbottelwa"));
+            LinkedList<string> my_list = new LinkedList<string>();
+            my_list.AddLast("the");
+            my_list.AddLast("the");
+            my_list.AddLast("fox");
+            my_list.AddLast("jumps");
+            my_list.AddLast("over");
+            my_list.AddLast("the");
+            my_list.AddLast("dog");
+            duplicateRemoved.removeDups(my_list.Head);
 
+            foreach (var item in my_list)
+            {
+                System.Console.WriteLine(item);
+            }
         }
     }
 }
