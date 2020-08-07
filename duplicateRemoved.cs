@@ -7,10 +7,7 @@ namespace Problems
 {
     public class duplicateRemoved
     {
-
-
-
-        // public static void deleteDups(LinkedListNode<string> head)
+        // public static void removeDups(LinkedListNode<string> head)
         // {
         //     LinkedListNode<string> current = head;
         //     while (current != null)
@@ -54,16 +51,14 @@ namespace Problems
                 else
                 {
                     list.Add(listItem.Value);
-
-                    // list.Add(i, listItem.Value);
                     previous = listItem;
                 }
                 listItem = listItem.Next;
             }
-            // return list;
-
-
         }
+
+
+
 
 
     }
