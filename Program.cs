@@ -23,20 +23,32 @@ namespace Problems
             // System.Console.WriteLine(matrixRotation.rotate(matrix));
             // zeroMatrix.zeroMatrixx(matrix);
             // System.Console.WriteLine(stringRotation.isSubstring("waterbottel", "erbottelwa"));
-            LinkedList<string> my_list = new LinkedList<string>();
-            my_list.AddLast("the");
-            my_list.AddLast("the");
-            my_list.AddLast("fox");
-            my_list.AddLast("jumps");
-            my_list.AddLast("over");
-            my_list.AddLast("the");
-            my_list.AddLast("dog");
-            duplicateRemoved.removeDups(my_list.Head);
+            // LinkedList<string> my_list = new LinkedList<string>();
 
-            foreach (var item in my_list)
-            {
-                System.Console.WriteLine(item);
-            }
+            // my_list.AddLast("the");
+            // my_list.AddLast("the");
+            // my_list.AddLast("fox");
+            // my_list.AddLast("jumps");
+            // my_list.AddLast("over");
+            // my_list.AddLast("the");
+            // my_list.AddLast("dog");
+            LinkedList<int> my_list = new LinkedList<int>();
+            my_list.AddLast(1);
+            my_list.AddLast(2);
+            my_list.AddLast(3);
+            my_list.AddLast(4);
+
+            // duplicateRemoved.removeDups(my_list.Head);
+            // returnKthEle.returnKthElement(my_list.Head, 4);
+            // int x = returnKthEle.printKthToLast(my_list.Head, 1);
+            // System.Console.WriteLine(x);
+            LinkedListNode<int> nth = returnKthEle.nthTolast(my_list.Head, 2);
+            System.Console.WriteLine(nth.Value);
+            System.Console.WriteLine(my_list.Tail.Value);
+            // foreach (var item in my_list)
+            // {
+            //     System.Console.WriteLine(item);
+            // }
         }
     }
 }

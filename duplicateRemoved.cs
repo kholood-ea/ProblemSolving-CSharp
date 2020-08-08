@@ -37,7 +37,6 @@ namespace Problems
         //=======================First Approach===================================
 
         public static void removeDups(LinkedListNode<string> listItem)
-
         {
             HashSet<string> list = new HashSet<string>();
             LinkedListNode<String> previous = null;
@@ -46,7 +45,6 @@ namespace Problems
                 if (list.Contains(listItem.Value))
                 {
                     previous.Next = listItem.Next;
-
                 }
                 else
                 {
@@ -56,6 +54,24 @@ namespace Problems
                 listItem = listItem.Next;
             }
         }
+        // public static void removeDups1(System.Collections.Generic.LinkedListNode<string> listItem)
+        // {
+        //     HashSet<string> list = new HashSet<string>();
+        //     System.Collections.Generic.LinkedListNode<String> previous = null;
+        //     while (listItem != null)
+        //     {
+        //         if (list.Contains(listItem.Value))
+        //         {
+        //             previous.Next = listItem.Next;
+        //         }
+        //         else
+        //         {
+        //             list.Add(listItem.Value);
+        //             previous = listItem;
+        //         }
+        //         listItem = listItem.Next;
+        //     }
+        // }
 
 
 
@@ -63,3 +79,26 @@ namespace Problems
 
     }
 }
+
+
+
+
+
+
+//================Help================================
+
+// public static bool CompareHashSets(HashSet<string> set1, HashSet<string> set2)
+// {
+// 	if(set1.Count != set2.Count)
+// 		return false;
+
+// 	HashSet<string>.Enumerator en1 = set1.GetEnumerator(); 
+// 	HashSet<string>.Enumerator en2 = set2.GetEnumerator();
+
+// 	while (en1.MoveNext() && en2.MoveNext()) { 
+//         if (en1.Current != en2.Current) 
+//         	return false;
+//     } 
+
+// 	return true;
+// }
