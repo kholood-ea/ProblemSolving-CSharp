@@ -6,12 +6,16 @@ namespace Problems
         public LinkedListNode<T> Head
         {
             get;
-            private set;
+            set;
+
+            // private set;
         }
         public LinkedListNode<T> Tail
         {
             get;
-            private set;
+            set;
+
+            // private set;
         }
         public void AddFirst(T value)
         {
