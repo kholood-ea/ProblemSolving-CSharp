@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Text;
 
 namespace Problems
 {
@@ -37,26 +38,36 @@ namespace Problems
             //     System.Console.WriteLine(item);
             // }
             LinkedList<int> my_list = new LinkedList<int>();
-            LinkedListNode<int> first = new LinkedListNode<int>(3);
-            LinkedListNode<int> second = new LinkedListNode<int>(5);
-            LinkedListNode<int> third = new LinkedListNode<int>(8);
-            LinkedListNode<int> forth = new LinkedListNode<int>(5);
-            LinkedListNode<int> fifth = new LinkedListNode<int>(10);
-            LinkedListNode<int> sixth = new LinkedListNode<int>(2);
-            LinkedListNode<int> seventh = new LinkedListNode<int>(1);
+            LinkedListNode<int> first = new LinkedListNode<int>(7);
+            LinkedListNode<int> second = new LinkedListNode<int>(1);
+            LinkedListNode<int> third = new LinkedListNode<int>(6);
+            // LinkedListNode<int> forth = new LinkedListNode<int>(5);
+            // LinkedListNode<int> fifth = new LinkedListNode<int>(10);
+            // LinkedListNode<int> sixth = new LinkedListNode<int>(2);
+            // LinkedListNode<int> seventh = new LinkedListNode<int>(1);
+
             my_list.AddLast(first);
             my_list.AddLast(second);
             second.Previous = first;
             my_list.AddLast(third);
             third.Previous = second;
-            my_list.AddLast(forth);
-            forth.Previous = third;
-            my_list.AddLast(fifth);
-            fifth.Previous = forth;
-            my_list.AddLast(sixth);
-            sixth.Previous = fifth;
-            my_list.AddLast(seventh);
-            seventh.Previous = sixth;
+            LinkedList<int> my_list1 = new LinkedList<int>();
+            LinkedListNode<int> first1 = new LinkedListNode<int>(5);
+            LinkedListNode<int> second2 = new LinkedListNode<int>(9);
+            LinkedListNode<int> third3 = new LinkedListNode<int>(2);
+            my_list1.AddLast(first1);
+            my_list1.AddLast(second2);
+            second2.Previous = first1;
+            my_list1.AddLast(third3);
+            third3.Previous = second2;
+            // my_list.AddLast(forth);
+            // forth.Previous = third;
+            // my_list.AddLast(fifth);
+            // fifth.Previous = forth;
+            // my_list.AddLast(sixth);
+            // sixth.Previous = fifth;
+            // my_list.AddLast(seventh);
+            // seventh.Previous = sixth;
             // my_list.Head.Next.Previous = my_list.Head;
             // my_list.Tail.Previous = my_list.Head.Next;
             // my_list.Head.Previous = null;
@@ -72,23 +83,36 @@ namespace Problems
             // removeNnode.RemoveNode(my_list.Head.Next);
             // LinkedListNode<int> result = new LinkedListNode<int>();
             // result = Partition.partition(my_list.Head, 5);
-            // while (result != null)
-            // {
-            //     System.Console.WriteLine(result.Value);
-            //     result = result.Next;
-            // }
             // foreach (var item in my_list)
             // {
             //     System.Console.WriteLine(item);
             // }
-            LinkedList<int> result = new LinkedList<int>();
-            result = Partition.partition(my_list.Head, 5);
+            // while (result.Head != null)
+            // {
+            //     System.Console.WriteLine(result.Head.Value);
+            //     result.Head = result.Head.Next;
+            // }
 
-            while (result.Head != null)
+            // int x = 890;
+            // string y = x.ToString();
+            // StringBuilder z = new StringBuilder(y);
+            // System.Console.WriteLine(z);
+            // LinkedList<int> listOfNumbers = new LinkedList<int>();
+            // for (int i = y.Length - 1; i >= 0; i--)
+            // {
+            //     System.Console.WriteLine(y[i]);
+            // }
+            // LinkedList<char> my_list1 = sumList.digitToList(z); ;
+
+            // LinkedList<int> my_list1 = sumList.digitToList(z); ;
+            LinkedList<char> my_list2 = sumList.SumList(my_list, my_list1);
+            foreach (var v in my_list2)
             {
-                System.Console.WriteLine(result.Head.Value);
-                result.Head = result.Head.Next;
+                System.Console.WriteLine(v);
             }
+
+
+
         }
     }
 }
