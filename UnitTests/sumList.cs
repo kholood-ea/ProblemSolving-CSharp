@@ -84,5 +84,39 @@ namespace ProblemSolving.UnitTests
             }
 
         }
+        [TestMethod]
+        public void SumOf2LinkedListsTestCase3()
+
+        {
+            LinkedList<int> my_list = new LinkedList<int>();
+            LinkedListNode<int> first = new LinkedListNode<int>(0);
+            LinkedListNode<int> second = new LinkedListNode<int>(1);
+            my_list.AddLast(first);
+            my_list.AddLast(second);
+            second.Previous = first;
+            LinkedList<int> my_list1 = new LinkedList<int>();
+            LinkedListNode<int> first1 = new LinkedListNode<int>(0);
+            LinkedListNode<int> second2 = new LinkedListNode<int>(0);
+            LinkedListNode<int> third3 = new LinkedListNode<int>(2);
+            my_list1.AddLast(first1);
+            my_list1.AddLast(second2);
+            second2.Previous = first1;
+            my_list1.AddLast(third3);
+            third3.Previous = second2;
+
+            LinkedList<char> my_list2 = sumList.SumList(my_list, my_list1);
+            LinkedList<char> my_list3 = new LinkedList<char>();
+            my_list3.AddLast('0');
+            my_list3.AddLast('1');
+            my_list3.AddLast('2');
+
+            while (my_list2.Head != null && my_list3.Head != null)
+            {
+                Assert.AreEqual(my_list2.Head.Value, my_list3.Head.Value);
+                my_list2.Head = my_list2.Head.Next;
+                my_list3.Head = my_list3.Head.Next;
+            }
+
+        }
     }
 }
