@@ -6,38 +6,7 @@ namespace cciProblemSolving
     {
         public LinkedListNode next, prev, last;
         public int data;
-        public LinkedListNode(LinkedListNode[] array)
-        {
-            for (int i = 0; i < array.Length; i++)
-            {
-                if (i == 0)
-                {
-                    data = array[i].data;
-                    // setPrevious(null);
-                    if (array[i + 1] != null)
-                    {
-                        setNext(array[i + 1]);
-                    }
-                    else
-                    {
-                        setNext(null);
-                    }
-                }
-                else
-                {
-                    data = array[i].data;
-                    if (array[i + 1] != null)
-                    {
-                        setNext(array[i + 1]);
-                    }
-                    else
-                    {
-                        setNext(null);
-                        // setPrevious(array[i-1]);
-                    }
-                }
-            }
-        }
+
         public LinkedListNode(int d, LinkedListNode n, LinkedListNode p)
         {
             data = d;
