@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace leetCode
@@ -8,12 +9,33 @@ namespace leetCode
     {
         static void Main(string[] args)
         {
-            int[] array = { 1, 2, 3 };
-            Queue queue = new Queue();
+            // int[] array = { 1, 2, 3 };
+            MyStack qstack = new MyStack();
+            qstack.Push(1);
+            qstack.Push(2);
+            int x = qstack.Top();
+            int y = qstack.Pop();
+            bool z = qstack.Empty();
+            System.Console.WriteLine($"{x},{y},{z},{qstack.qStack.Count}");
+
+
+            Queue<int> queue = new Queue<int>();
             queue.Enqueue(1);
             queue.Enqueue(2);
             queue.Enqueue(3);
+            queue.Dequeue();
+            System.Console.WriteLine(queue.Peek());
+            int[] array = queue.ToArray();
+            Queue<int> queue1 = new Queue<int>();
+            for (int i = array.Length - 1; i >= 0; i--)
+            {
+                // queue1.Enqueue(array[i]);
+            }
 
+            foreach (var item in queue)
+            {
+                System.Console.WriteLine(item);
+            }
 
 
             // MinStack stack = new MinStack();
@@ -39,7 +61,7 @@ namespace leetCode
 
             foreach (var item in queue)
             {
-                System.Console.WriteLine(item);
+                // System.Console.WriteLine(item);
             }
         }
     }
