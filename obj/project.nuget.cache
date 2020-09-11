@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DdC7cgiQsM2NfSnfhJuXpn6f+DCTonyUKwi0k9C+BJ3WzlB0Px53XbSzHRo6kNqh2ClPgzX/PNMgmzUH0Mk55A==",
+  "dgSpecHash": "arQLrEFpNd7e63o1KCaP03Hq4nr9F1OGZOXUPibSfGVs4NAef6r2NcrbUY9AQ/C6sRbIYLOJHb3BILyZohdngA==",
   "success": true,
-  "projectFilePath": "/Users/kholood/Documents/ProblemSolving/HackerRank/HackerRank.csproj",
+  "projectFilePath": "/Users/kholood/Documents/ProblemSolving/HackerRank/cciProblemSolving.csproj",
   "expectedPackageFiles": [
     "/Users/kholood/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/kholood/.nuget/packages/microsoft.dotnet.platformabstractions/1.0.3/microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",

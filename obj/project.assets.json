@@ -6767,9 +6767,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kholood/Documents/ProblemSolving/HackerRank/HackerRank.csproj",
-      "projectName": "HackerRank",
-      "projectPath": "/Users/kholood/Documents/ProblemSolving/HackerRank/HackerRank.csproj",
+      "projectUniqueName": "/Users/kholood/Documents/ProblemSolving/HackerRank/cciProblemSolving.csproj",
+      "projectName": "cciProblemSolving",
+      "projectPath": "/Users/kholood/Documents/ProblemSolving/HackerRank/cciProblemSolving.csproj",
       "packagesPath": "/Users/kholood/.nuget/packages/",
       "outputPath": "/Users/kholood/Documents/ProblemSolving/HackerRank/obj/",
       "projectStyle": "PackageReference",
