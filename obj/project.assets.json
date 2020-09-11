@@ -6767,11 +6767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kholood/Documents/ProblemSolving/cciProblemSolving/cciProblemSolving.csproj",
-      "projectName": "cciProblemSolving",
-      "projectPath": "/Users/kholood/Documents/ProblemSolving/cciProblemSolving/cciProblemSolving.csproj",
+      "projectUniqueName": "/Users/kholood/Documents/ProblemSolving/HackerRank/HackerRank.csproj",
+      "projectName": "HackerRank",
+      "projectPath": "/Users/kholood/Documents/ProblemSolving/HackerRank/HackerRank.csproj",
       "packagesPath": "/Users/kholood/.nuget/packages/",
-      "outputPath": "/Users/kholood/Documents/ProblemSolving/cciProblemSolving/obj/",
+      "outputPath": "/Users/kholood/Documents/ProblemSolving/HackerRank/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kholood/.nuget/NuGet/NuGet.Config"

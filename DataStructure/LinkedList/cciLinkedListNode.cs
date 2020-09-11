@@ -1,4 +1,4 @@
-namespace cciProblemSolving
+namespace HackerRank
 {
 
 
