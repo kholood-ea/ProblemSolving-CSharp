@@ -6,7 +6,9 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("HackerRank");
+            int[] x = { 3, 3, 4, 4, 9 };
+            Waiter.waiter(x, 2);
+            // Console.WriteLine("Hello World!");
         }
     }
 }

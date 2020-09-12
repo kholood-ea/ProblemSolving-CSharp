@@ -1,0 +1,12 @@
+/Users/kholood/Documents/HackerRank/bin/Debug/netcoreapp3.1/HackerRank.deps.json
+/Users/kholood/Documents/HackerRank/bin/Debug/netcoreapp3.1/HackerRank.runtimeconfig.json
+/Users/kholood/Documents/HackerRank/bin/Debug/netcoreapp3.1/HackerRank.runtimeconfig.dev.json
+/Users/kholood/Documents/HackerRank/bin/Debug/netcoreapp3.1/HackerRank.dll
+/Users/kholood/Documents/HackerRank/bin/Debug/netcoreapp3.1/HackerRank.pdb
+/Users/kholood/Documents/HackerRank/obj/Debug/netcoreapp3.1/HackerRank.csprojAssemblyReference.cache
+/Users/kholood/Documents/HackerRank/obj/Debug/netcoreapp3.1/HackerRank.AssemblyInfoInputs.cache
+/Users/kholood/Documents/HackerRank/obj/Debug/netcoreapp3.1/HackerRank.AssemblyInfo.cs
+/Users/kholood/Documents/HackerRank/obj/Debug/netcoreapp3.1/HackerRank.csproj.CoreCompileInputs.cache
+/Users/kholood/Documents/HackerRank/obj/Debug/netcoreapp3.1/HackerRank.dll
+/Users/kholood/Documents/HackerRank/obj/Debug/netcoreapp3.1/HackerRank.pdb
+/Users/kholood/Documents/HackerRank/obj/Debug/netcoreapp3.1/HackerRank.genruntimeconfig.cache
