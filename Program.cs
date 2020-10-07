@@ -9,6 +9,8 @@ namespace Problems
     {
         static void Main(string[] args)
         {
+            SubArrays.ReadVar();
+            // smallestInt.ReadVar();
             // UniqueString.isUnique("Kholood");
             // PremutationString.isPremutation("abc", "123");
             // Console.WriteLine(URLifyString.URLify("Hello World   +    ", 11));
@@ -37,29 +39,29 @@ namespace Problems
             // {
             //     System.Console.WriteLine(item);
             // }
-            LinkedList<int> my_list = new LinkedList<int>();
-            LinkedListNode<int> first = new LinkedListNode<int>(7);
-            LinkedListNode<int> second = new LinkedListNode<int>(1);
-            LinkedListNode<int> third = new LinkedListNode<int>(6);
+            // LinkedList<int> my_list = new LinkedList<int>();
+            // LinkedListNode<int> first = new LinkedListNode<int>(7);
+            // LinkedListNode<int> second = new LinkedListNode<int>(1);
+            // LinkedListNode<int> third = new LinkedListNode<int>(6);
             // LinkedListNode<int> forth = new LinkedListNode<int>(5);
             // LinkedListNode<int> fifth = new LinkedListNode<int>(10);
             // LinkedListNode<int> sixth = new LinkedListNode<int>(2);
             // LinkedListNode<int> seventh = new LinkedListNode<int>(1);
 
-            my_list.AddLast(first);
-            my_list.AddLast(second);
-            second.Previous = first;
-            my_list.AddLast(third);
-            third.Previous = second;
-            LinkedList<int> my_list1 = new LinkedList<int>();
-            LinkedListNode<int> first1 = new LinkedListNode<int>(5);
-            LinkedListNode<int> second2 = new LinkedListNode<int>(9);
-            LinkedListNode<int> third3 = new LinkedListNode<int>(2);
-            my_list1.AddLast(first1);
-            my_list1.AddLast(second2);
-            second2.Previous = first1;
-            my_list1.AddLast(third3);
-            third3.Previous = second2;
+            // my_list.AddLast(first);
+            // my_list.AddLast(second);
+            // second.Previous = first;
+            // my_list.AddLast(third);
+            // third.Previous = second;
+            // LinkedList<int> my_list1 = new LinkedList<int>();
+            // LinkedListNode<int> first1 = new LinkedListNode<int>(5);
+            // LinkedListNode<int> second2 = new LinkedListNode<int>(9);
+            // LinkedListNode<int> third3 = new LinkedListNode<int>(2);
+            // my_list1.AddLast(first1);
+            // my_list1.AddLast(second2);
+            // second2.Previous = first1;
+            // my_list1.AddLast(third3);
+            // third3.Previous = second2;
             // my_list.AddLast(forth);
             // forth.Previous = third;
             // my_list.AddLast(fifth);
@@ -105,11 +107,11 @@ namespace Problems
             // LinkedList<char> my_list1 = sumList.digitToList(z); ;
 
             // LinkedList<int> my_list1 = sumList.digitToList(z); ;
-            LinkedList<char> my_list2 = sumList.SumList(my_list, my_list1);
-            foreach (var v in my_list2)
-            {
-                System.Console.WriteLine(v);
-            }
+            // LinkedList<char> my_list2 = sumList.SumList(my_list, my_list1);
+            // foreach (var v in my_list2)
+            // {
+            //     System.Console.WriteLine(v);
+            // }
 
 
 
