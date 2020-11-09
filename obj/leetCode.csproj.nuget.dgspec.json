@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kholood/Documents/ProblemSolving/leetCode/leetCode.csproj": {}
+    "/Users/kholood/Documents/ProblemSolving/ProblemSolving/leetCode.csproj": {}
   },
   "projects": {
-    "/Users/kholood/Documents/ProblemSolving/leetCode/leetCode.csproj": {
+    "/Users/kholood/Documents/ProblemSolving/ProblemSolving/leetCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kholood/Documents/ProblemSolving/leetCode/leetCode.csproj",
+        "projectUniqueName": "/Users/kholood/Documents/ProblemSolving/ProblemSolving/leetCode.csproj",
         "projectName": "leetCode",
-        "projectPath": "/Users/kholood/Documents/ProblemSolving/leetCode/leetCode.csproj",
+        "projectPath": "/Users/kholood/Documents/ProblemSolving/ProblemSolving/leetCode.csproj",
         "packagesPath": "/Users/kholood/.nuget/packages/",
-        "outputPath": "/Users/kholood/Documents/ProblemSolving/leetCode/obj/",
+        "outputPath": "/Users/kholood/Documents/ProblemSolving/ProblemSolving/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kholood/.nuget/NuGet/NuGet.Config"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

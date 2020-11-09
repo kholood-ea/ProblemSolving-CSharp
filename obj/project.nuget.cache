@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KJDKsez6iWeQPfKgPoz08LgK6nJPvufSrzErYgkvxOGKHOvMB3s72gnZUEZ2r3AUyw95/uo8jpGk6PiFIPox4w==",
+  "dgSpecHash": "SDwG9hhP7kaApF3JUP6yetybgRtNclN0uuNNb8e/Yj327ZSa8mjhdnCZK6FAZ4zDJKrekldOeRCdPZcN4c/NQw==",
   "success": true,
-  "projectFilePath": "/Users/kholood/Documents/ProblemSolving/leetCode/leetCode.csproj",
+  "projectFilePath": "/Users/kholood/Documents/ProblemSolving/ProblemSolving/leetCode.csproj",
   "expectedPackageFiles": [
     "/Users/kholood/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/kholood/.nuget/packages/microsoft.dotnet.platformabstractions/1.0.3/microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
