@@ -7,19 +7,30 @@ namespace leetCode
 {
     class Program
     {
+            
         static void Main(string[] args)
         {
-
+        	
+      TreeNode left=new TreeNode(1);
+   TreeNode right=new TreeNode(3);
+               TreeNode root=new TreeNode(2,left,right);
+        //  List<int>x=  PreOrderTree.PreorderTraversal(root);
+        //  for (int i = 0; i < x.Count; i++)
+        //  {
+        //     System.Console.WriteLine( x[i]);
+        //  }
+        
+// PreOrderTree.PreorderTraversal();
             // int[,] array2D = new int[,] { { 1, 3 }, { 1, 4 }, { 2, 3 }, { 2, 4 } ,{4,3}};
                     //    int[,] array2D = new int[,] { { 1, 2 }};
             // int[][] array2D = new int[][] { { 1,3},{2,3},{3,1}};
-int[][] array2D = new int[][]
-{
-    new int[] { 1, 3 },
-    new int[] { 2, 3},
-    new int[] { 3, 1 }
-};
-           System.Console.WriteLine( FindJudge.findJudge(3,array2D));
+// int[][] array2D = new int[][]
+// {
+//     new int[] { 1, 3 },
+//     new int[] { 2, 3},
+//     new int[] { 3, 1 }
+// };
+        //    System.Console.WriteLine( FindJudge.findJudge(3,array2D));
         // FindJudge.findJudge(3,array2D);
             // int[] array = { 1, 2, 3 };
             // MyStack qstack = new MyStack();
