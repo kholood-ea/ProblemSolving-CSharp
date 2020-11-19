@@ -14,11 +14,13 @@ namespace leetCode
       TreeNode left=new TreeNode(1);
    TreeNode right=new TreeNode(3);
                TreeNode root=new TreeNode(2,left,right);
+  List<int>x=  InOrderTree.inOrderTraversal(root);
+
         //  List<int>x=  PreOrderTree.PreorderTraversal(root);
-        //  for (int i = 0; i < x.Count; i++)
-        //  {
-        //     System.Console.WriteLine( x[i]);
-        //  }
+         for (int i = 0; i < x.Count; i++)
+         {
+            System.Console.WriteLine( x[i]);
+         }
         
 // PreOrderTree.PreorderTraversal();
             // int[,] array2D = new int[,] { { 1, 3 }, { 1, 4 }, { 2, 3 }, { 2, 4 } ,{4,3}};
