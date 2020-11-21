@@ -12,10 +12,20 @@ namespace leetCode
         {
         	
       TreeNode left=new TreeNode(1);
-   TreeNode right=new TreeNode(3);
-               TreeNode root=new TreeNode(2,left,right);
-  List<int>x=  InOrderTree.inOrderTraversal(root);
+   TreeNode right=new TreeNode(2);
+               TreeNode root=new TreeNode(3,left,right);
+                List<int>x=  PostOrderTree.postOrderTree(root);
 
+
+//   List<int>x=  InOrderTree.inOrderTraversal(root);
+//   LinkedList<int>x=  PostOrderTree.postOrderTraversal(root);
+//   LinkedListNode<int>y=x.First;
+
+// while (y!=null)
+// {
+//     System.Console.WriteLine(y.Value);
+//     y = y.Next;
+// }
         //  List<int>x=  PreOrderTree.PreorderTraversal(root);
          for (int i = 0; i < x.Count; i++)
          {
