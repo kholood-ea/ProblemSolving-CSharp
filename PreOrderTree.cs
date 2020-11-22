@@ -4,7 +4,7 @@ namespace leetCode
 {
     public class PreOrderTree
     {
-          public static List<int> PreorderTraversal(TreeNode root) {
+          public static IList<int> PreorderTraversal(TreeNode root) {
        List<int> list = new List<int>();
 	Stack<TreeNode> rights = new Stack<TreeNode>();
 	while(root != null) {
