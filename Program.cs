@@ -10,11 +10,27 @@ namespace leetCode
             
         static void Main(string[] args)
         {
-        	
-      TreeNode left=new TreeNode(1);
-   TreeNode right=new TreeNode(2);
-               TreeNode root=new TreeNode(3,left,right);
-                List<int>x=  PostOrderTree.postOrderTree(root);
+        	 TreeNode first=new TreeNode(10);
+              TreeNode sec=new TreeNode(5);
+              TreeNode thr=new TreeNode(15);
+               TreeNode four=new TreeNode(3);
+                TreeNode fifth=new TreeNode(7);
+                  TreeNode seven=new TreeNode(18);
+                  first.left=sec;
+                  first.right=thr;
+                  sec.left=four;
+                  sec.right=fifth;
+                  thr.right=seven;
+                  System.Console.WriteLine(TreeHighLow.RangeSumBST(first,7,15));
+
+
+
+                //    TreeNode eight=new TreeNode(1);
+                //     TreeNode nine=new TreeNode(1);
+//       TreeNode left=new TreeNode(1);
+//    TreeNode right=new TreeNode(2);
+//                TreeNode root=new TreeNode(3,left,right);
+//                 List<int>x=  PostOrderTree.postOrderTree(root);
 
 
 //   List<int>x=  InOrderTree.inOrderTraversal(root);
@@ -27,10 +43,10 @@ namespace leetCode
 //     y = y.Next;
 // }
         //  List<int>x=  PreOrderTree.PreorderTraversal(root);
-         for (int i = 0; i < x.Count; i++)
-         {
-            System.Console.WriteLine( x[i]);
-         }
+        //  for (int i = 0; i < x.Count; i++)
+        //  {
+        //     System.Console.WriteLine( x[i]);
+        //  }
         
 // PreOrderTree.PreorderTraversal();
             // int[,] array2D = new int[,] { { 1, 3 }, { 1, 4 }, { 2, 3 }, { 2, 4 } ,{4,3}};
