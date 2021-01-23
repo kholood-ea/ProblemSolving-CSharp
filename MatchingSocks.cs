@@ -18,29 +18,26 @@ namespace HackerRank
     {
 
         // Complete the sockMerchant function below.
-        static int sockMerchant(int n, int[] ar)
+        public static int sockMerchant(int n, int[] ar)
         {
-            int socksPair = 0, Occurance = 0;
+            int sockPairs = 0;
 
-            Array.Sort(ar);
-            int firstCouple = ar[0];
+            HashSet<int> Numbers = new HashSet<int>();
             for (var i = 0; i < ar.Length; i++)
             {
-                if (ar[i] == firstCouple)
+
+                if (!Numbers.Contains(ar[i]))
                 {
-                    Occurance += 1;
+                    Numbers.Add(ar[i]);
                 }
                 else
                 {
-                    socksPair += Occurance / 2;
-                    Occurance = 0;
-                    firstCouple = ar[i];
+                    sockPairs++;
+                    Numbers.Remove(ar[i]);
                 }
-                socksPair += Occurance / 2;
-
             }
 
-            return socksPair;
+            return sockPairs;
 
         }
 
