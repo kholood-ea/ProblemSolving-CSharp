@@ -6767,11 +6767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kholood/Documents/ProblemSolving/HackerRank/HackerRank.csproj",
+      "projectUniqueName": "/Users/kholood/Documents/ProblemSolving/ProblemSolving/HackerRank.csproj",
       "projectName": "HackerRank",
-      "projectPath": "/Users/kholood/Documents/ProblemSolving/HackerRank/HackerRank.csproj",
+      "projectPath": "/Users/kholood/Documents/ProblemSolving/ProblemSolving/HackerRank.csproj",
       "packagesPath": "/Users/kholood/.nuget/packages/",
-      "outputPath": "/Users/kholood/Documents/ProblemSolving/HackerRank/obj/",
+      "outputPath": "/Users/kholood/Documents/ProblemSolving/ProblemSolving/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kholood/.nuget/NuGet/NuGet.Config"
@@ -6784,6 +6784,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6795,6 +6796,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -6824,7 +6826,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
