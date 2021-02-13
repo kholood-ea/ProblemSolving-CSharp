@@ -10,7 +10,15 @@ namespace HackerRank
             // string y = "UDDDUDUU";
             // System.Console.WriteLine(numberOfVallies.countingValleys(8, y));
             int[] x = { 0, 0, 0, 1, 0, 0 };
-            System.Console.WriteLine(JumpingOnClouds.jumpingOnClouds(x));
+            // System.Console.WriteLine(JumpingOnClouds.jumpingOnClouds(x));
+
+            // string a = "cfimaakj";
+            // System.Console.WriteLine(RepeatedA.repeatedString(a, 554045874191));
+
+            string a = "ab";
+
+            System.Console.WriteLine(RepeatedA.repeatedString(a, 4));
+
             // Waiter.waiter(x, 2);
             // MatchingSocks.ReadVar();
             // System.Console.WriteLine(MatchingSocks.sockMerchant(15, x));
